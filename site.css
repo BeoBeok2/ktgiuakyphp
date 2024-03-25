@@ -1,0 +1,34 @@
+/* site.css */
+
+.nhanvien-list {
+    display: table;
+    width: 100%;
+}
+
+.product-item {
+    display: table-row;
+}
+
+.column-header {
+    display: table-cell;
+    font-weight: bold;
+    padding: 10px; /* Thêm padding cho tiêu đề cột */
+    color: red; /* Chữ màu đỏ */
+    text-align: center; /* Căn giữa */
+    border-bottom: 2px solid black; /* Đường viền dưới cho tiêu đề cột */
+}
+
+.product-item div {
+    display: table-cell;
+    padding: 10px; /* Thêm padding cho dữ liệu */
+    border-bottom: 1px solid #ccc;
+    text-align: center; /* Căn giữa */
+}
+
+.product-item:nth-child(even) div {
+    background-color: #f2f2f2; /* Màu xám xen kẽ cho hàng chẵn */
+}
+
+.product-item:nth-child(odd) div {
+    background-color: #ffffff; /* Màu nền trắng cho hàng lẻ */
+}
